@@ -1,4 +1,4 @@
-# Credit Risk Analysis & Loan Behavior Dashboard (Power BI)
+# Credit Risk Analysis & Loan Behavior Dashboard (Power BI and python)
 
 ## Project Overview
 
@@ -130,8 +130,116 @@ The dataset initially contained missing values, invalid entries, and inconsisten
 * Add machine learning-based default prediction
 * Integrate real-time financial datasets
 * Improve risk scoring model with more parameters
-  
 
-✨ This project demonstrates my ability to analyze financial data, identify risk patterns, and build dashboards for decision-making in banking and finance.
+This project demonstrates my ability to analyze financial data, identify risk patterns, and build dashboards for decision-making in banking and finance.
 
+Credit Risk Prediction using Machine Learning
+
+##  Project Overview
+
+This project focuses on predicting whether a customer is likely to **default on a loan** using Machine Learning techniques.
+The model analyzes customer financial and behavioral data to assist banks and financial institutions in making better lending decisions.
+
+## Objective
+
+* Identify high-risk customers
+* Reduce financial loss due to loan defaults
+* Build a reliable ML model for credit risk analysis
+
+## ️ Technologies Used
+
+* Python
+* Pandas & NumPy (Data Processing)
+* Scikit-learn (Machine Learning)
+* Matplotlib & Seaborn (Visualization)
+
+## Project Workflow
+
+1. **Data Collection**
+
+   * Loaded dataset from Excel file
+
+2. **Data Cleaning**
+
+   * Handled missing values
+   * Removed invalid entries ("error")
+   * Converted columns to numeric format
+
+3. **Data Preprocessing**
+
+   * Filled missing values using mean/mode
+   * Encoded categorical variables
+   * Feature scaling using StandardScaler
+
+4. **Feature Selection**
+
+   * Selected relevant features for prediction
+   * Defined target variable (Default_Status)
+
+5. **Model Building**
+
+   * Logistic Regression
+   * Decision Tree Classifier
+   * Random Forest Classifier
+
+6. **Model Evaluation**
+
+   * Accuracy Score
+   * Confusion Matrix
+   * Classification Report
+
+7. **Visualization**
+
+   * Confusion Matrix Heatmaps
+   * Model Accuracy Comparison Graph
+   * Feature Importance Analysis
+
+## Results
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 86%      |
+| Decision Tree       | 99%      |
+| Random Forest       | 99%      |
+
+## Key Insights
+
+* Random Forest and Decision Tree achieved the highest accuracy (~99%)
+* Logistic Regression performed well but slightly lower (~86%)
+* Feature importance analysis helped identify key factors affecting loan default
+
+##  Limitations
+
+* High accuracy may indicate possible overfitting
+* Further validation like cross-validation can improve reliability
+
+## Future Improvements
+
+* Deploy model using Streamlit (Web App)
+* Add real-time prediction system
+* Use larger and more realistic datasets
+* Apply advanced models like XGBoost
+
+##  Project Structure
+
+Credit-Risk-ML/
+│
+├── data/
+├── src/
+│   └── credit_model.py
+├── outputs/
+└── README.md
+
+## Use Case
+
+This project can be used by:
+
+* Banks
+* Financial institutions
+* Loan approval systems
+
+## Author
+
+Manasa M
+Aspiring Data Analyst | Machine Learning Enthusiast
 
