@@ -133,7 +133,9 @@ The dataset initially contained missing values, invalid entries, and inconsisten
 
 This project demonstrates my ability to analyze financial data, identify risk patterns, and build dashboards for decision-making in banking and finance.
 
-#Credit Risk Prediction using Machine Learning
+
+
+##Credit Risk Prediction using Machine Learning
 
 ##  Project Overview
 
